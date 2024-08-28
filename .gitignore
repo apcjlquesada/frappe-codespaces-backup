@@ -1,3 +1,5 @@
+Procfile
+patches.txt
 apps/
 env/
 logs/
