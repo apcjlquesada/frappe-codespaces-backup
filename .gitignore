@@ -2,3 +2,12 @@ apps/
 env/
 logs/
 config/
+
+sites/*
+!sites/dev.localhost/
+
+sites/dev.localhost/*
+!sites/dev.localhost/private
+
+sites/dev.localhost/private/*
+!sites/dev.localhost/private/backups
