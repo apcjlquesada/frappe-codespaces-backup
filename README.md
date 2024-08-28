@@ -16,3 +16,7 @@ bench --site dev.localhost migrate
   
 bench --site dev.localhost backup --with-files  
 
+bench --force --site dev.localhost  restore  /workspace/frappe-bench/sites_new/dev.localhost/private/backups/(database.sql.gz)   --with-private-files  /workspace/frappe-bench/sites_new/(dev_localhost-private-files.tar)  --with-public-files  /workspace/frappe-bench/sites_new/dev.localhost/private/backups/(dev_localhost-files.tar)
+
+
+https://github.com/frappe/frappe/wiki/App-Development-using-GitHub  
