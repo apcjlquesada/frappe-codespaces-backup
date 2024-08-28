@@ -2,7 +2,7 @@
 
 https://manual.buildwithhussain.dev/installation/codespaces/ .
 
-bench get-app --branch erpnext  
+bench get-app erpnext  
 bench --site dev.localhost install-app erpnext  
 bench --site dev.localhost migrate  
   
