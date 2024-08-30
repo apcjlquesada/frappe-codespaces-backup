@@ -1,6 +1,7 @@
 # frappe-codespaces-backup 
 
-https://manual.buildwithhussain.dev/installation/codespaces/ .
+https://manual.buildwithhussain.dev/installation/codespaces/  
+Install the apps that you want before executing bench start in step 5  
 
 bench get-app erpnext  
 bench --site dev.localhost install-app erpnext  
