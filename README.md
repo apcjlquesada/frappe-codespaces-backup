@@ -3,7 +3,11 @@
 https://manual.buildwithhussain.dev/installation/codespaces/  
 Install the apps that you want before executing bench start in step 5  
 
-bench get-app erpnext  
+bench switch-to-branch version-15 frappe
+bench update --requirements
+bench migrate
+
+bench get-app erpnext --branch version-15
 bench --site dev.localhost install-app erpnext  
 bench --site dev.localhost migrate  
   
