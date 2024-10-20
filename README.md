@@ -11,11 +11,11 @@ bench get-app erpnext --branch version-15
 bench --site dev.localhost install-app erpnext  
 bench --site dev.localhost migrate  
   
-bench get-app hrms  
+bench get-app hrms  --branch version-15  
 bench --site dev.localhost install-app hrms  
 bench --site dev.localhost migrate  
   
-bench get-app healthcare  
+bench get-app healthcare  --branch version-15  
 bench --site dev.localhost install-app  healthcare  
 bench --site dev.localhost migrate  
   
